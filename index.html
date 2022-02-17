@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p id="starttext" style="text-align: center; border: 1px solid black; background-color: blue; border-radius: 5px;">Задайте целое число от 0 до 100, ия угадаю его за 7 попыток или меньше!</p>
+    <button onclick="start()" id="startButton" style="display: block; margin: auto;">Начинаем</button>
+
+    <p id="question" style="text-align: center;"></p>
+
+    <div style="text-align: center;">
+    <button id="small" onclick="smallClick()" class="hediBlock" >Меньше</button>
+    <button id="bingo" onclick="bingoClick()" class="hediBlock">Угадал!</button>
+    <button id="big" onclick="bigClick()" class="hediBlock">Больше</button>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
